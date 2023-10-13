@@ -3,7 +3,7 @@ Me vs AI
 
 Jason Arbon challenged testers to compare their testing of the Google homepage to "AI"
 
-My approach was to load the homepage, create an outline of the elements, and begin to iterate through each one. As I iterated I expanded my outline with new layers of features, some further test ideas to return to later, and even a bug. See the "My Results" file.
+My approach was to load the homepage, create an outline of the elements, and begin to iterate through each one. As I iterated I expanded my outline with new layers of features, some further test ideas to return to later, and even a bug. See the "My Results" file. I spent less than 30 min. on this starting from the time I read Jason's post.
 
 My approach is highly legible, explains the page, and provides a framework to fractally expand coverage in any given direction as desired/needed.
 

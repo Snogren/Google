@@ -1,0 +1,120 @@
+- First Product Coverage Outline (2 min.)
+    - Header
+        - About
+        - Store
+        - Gmail
+        - Images
+        - Menu
+        - Sign in button
+        - Sign in popup (opens on page load)
+            - Stay out
+            - Sign in
+    - Search area
+        - Text input
+        - Search by image button
+        - Google search button
+        - I'm feeling lucky button
+        - Informative link
+    - Footer
+        - Advertising
+        - Business
+        - How Search works
+        - Climate activism link
+        - Privacy link
+        - Terms link
+        - Settings
+- First "test-case" - Explore page
+    - Iterate through all links/buttons to see what they do and what additional branches open up from there
+    - Variations:
+        - Logged in
+            - Homepage settings you might have
+        - Not logged in (used this one for the experiment)
+        - Devices (used PC laptop with Firefox)
+- 2rd TC - Search
+    - This page is to engage the search action, the search logic is a separate area of concern. Verify each search action is operable and search results seem relevant.
+- Coverage outline from executing both test cases for 15 min.
+    - Header
+        - About
+            - Takes you to "About" page
+        - Store
+            - Store page
+        - Gmail
+            - Email signin page
+        - Images
+            - New "images" branded search page
+        - Menu
+            - Long list of google apps
+                - 2 sections
+                    - Apps attempt to open in same tab
+            - "More from google" button
+                - Products page in new tab
+        - Sign in button
+        - Sign in popup (opens on page load)
+            - Stay out
+                - Popup disappears
+            - Sign in
+                - New tab
+                - Popup realizes you clicked it once
+                    - Clearing cookies and cache and refreshing opens it again
+    - Search area
+        - Text input
+            - Focusing expands dropdown
+                - Trending searches (links)
+                    - Where is the data coming from?
+                        - Focusing creates a POST request with blank response
+                    - Clicking a link searches for that term on the Search page
+                    - One option has a thumbnail
+                - Search and Feelin' Lucky buttons inside dropdown
+                - Report link
+                - Clear button opens up after text is entered
+                - Ways to submit search:
+                    - Enter key
+                    - Down and up arrows to highlight suggestion, and enter
+                    - Click suggestion
+                    - Click Search in dropdown
+                    - Click Feelin Lucky
+                    - Close input dropdown and try Search button
+                    - Close input dropdown and try Lucky button
+                    - Use images search icon
+                        - Opens up uploader interface
+                            - X to cancel
+                            - Drag and drop image
+                                - Adding an image executes the search
+                                    - BUG - no easy way to go back or change your search, like with text search
+                            - Link to upload
+                                - Adding an image executes the search
+                                    - BUG - no easy way to go back or change your search, like with text search
+                            - Paste image link
+                - Open and close dropdown while text is entered
+                - Try entering the search with the different buttons and keyboard shortcuts
+                    - Enter key to submit
+                    - Down arrow and enter on a suggestion
+                    - Click search in dropdown
+                    - Close dropdown and click search
+            - Text entry works with variety of characters
+        - Search by image button
+        - Google search button
+        - I'm feeling lucky button
+        - Informative link
+    - Footer
+        - Simple links
+            - Advertising
+            - Business
+            - How Search works
+            - Climate activism link
+            - Privacy link
+            - Terms link
+        - Settings
+            - All simple links except "Feedback" and "Dark Theme"
+            - Feedback
+                - Opens an overlay
+                    - Text input
+                    - Tooltips
+                    - Various links
+                    - Upload
+            - Send button
+            - Dark Theme toggle
+                - Switches between dark and light mode
+                - Mine was dark by default - 
+                    - System settings? 
+                    - Browser settings?

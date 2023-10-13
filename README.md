@@ -7,7 +7,7 @@ My approach was to load the homepage, create an outline of the elements, and beg
 
 My approach is highly legible, explains the page, and provides a framework to fractally expand coverage in any given direction as desired/needed.
 
-The AI approach was to list childishly simplisitic, unordered, unorganized, sometimes completely wrong, "test-cases" which would be utterly worthless to any tester. See "Ai First Answer."
+The AI approach was to list simplisitic, unordered, unorganized, sometimes completely wrong, "test-cases" which would be worthless to any tester. See "Ai First Answer."
 
 I asked for more test cases, and the majority of these said to verify functionality which was actually wrong (I checked). See "AI Second Answer."
 
